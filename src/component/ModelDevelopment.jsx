@@ -20,7 +20,7 @@ const ModelDevelopment = () => {
   ];
 
   return (
-    <section className="w-full bg-black text-white py-20 px-6 md:px-20">
+    <section id="training" className="w-full bg-black text-white py-20 px-6 md:px-20">
       {/* Section Heading */}
       <div className="text-center mb-12">
         <h2 className="text-4xl md:text-5xl font-bold uppercase">

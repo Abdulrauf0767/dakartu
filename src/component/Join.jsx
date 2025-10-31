@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const Join = () => {
   return (
-    <section
+    <section id="join"
       className="relative w-full h-[70vh] bg-cover bg-center flex items-center justify-center"
       style={{
         backgroundImage:

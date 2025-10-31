@@ -3,7 +3,7 @@ import image from '/images/lady-about.jpg'
 
 const About = () => {
   return (
-    <section className="w-full bg-white text-black py-16 px-6 md:px-20 flex flex-col md:flex-row items-center justify-between">
+    <section id="about"  className="w-full bg-white text-black py-16 px-6 md:px-20 flex flex-col md:flex-row items-center justify-between">
       {/* ===== Left Side: Image ===== */}
       <div className="w-full md:w-1/2 mb-10 md:mb-0 flex items-center justify-center">
         <div className="relative w-80 h-80 md:w-[420px] md:h-[420px] rounded-3xl overflow-hidden border-4 border-black shadow-2xl hover:scale-105 transition-transform duration-500">

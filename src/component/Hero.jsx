@@ -5,7 +5,7 @@ import image02 from "/images/lady.png";
 
 const Hero = () => {
   return (
-    <section className="w-full min-h-[90vh] bg-black text-white flex flex-col md:flex-row items-center justify-between px-6 md:px-16 py-12 relative overflow-hidden">
+    <section id="home" className="w-full min-h-[90vh] mt-20 bg-black text-white flex flex-col md:flex-row items-center justify-between px-6 md:px-16 py-12 relative overflow-hidden">
       {/* ===== Left Side Text ===== */}
       <div className="w-full md:w-1/2 flex flex-col items-start justify-center space-y-6 z-10">
         <h1 className="text-4xl md:text-6xl font-bold uppercase tracking-wide leading-tight">
